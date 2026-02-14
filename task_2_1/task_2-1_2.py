@@ -1,0 +1,1 @@
+print ('Language: Python\n\tVersion: 3.10')
