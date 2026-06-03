@@ -1,0 +1,25 @@
+sdvssh@DESKTOP-IRCL49J:~$ cd ~
+sdvssh@DESKTOP-IRCL49J:~$ mkdir -p linux-practice/{documents/{past,future},images,backups}
+sdvssh@DESKTOP-IRCL49J:~$ ls -R linux-practice
+linux-practice:
+backups  documents  images
+
+linux-practice/backups:
+
+linux-practice/documents:
+future  past
+
+linux-practice/documents/future:
+
+linux-practice/documents/past:
+
+linux-practice/images:
+sdvssh@DESKTOP-IRCL49J:~$ cd linux-practice/
+sdvssh@DESKTOP-IRCL49J:~/linux-practice$ du -h --max-depth=2 ./
+0       ./backups
+0       ./documents/future
+0       ./documents/past
+0       ./documents
+0       ./images
+0       ./
+sdvssh@DESKTOP-IRCL49J:~/linux-practice$ du -h --max-depth=2 ./ > task_3-4_2.txt
